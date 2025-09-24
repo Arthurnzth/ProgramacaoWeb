@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portifólio</title>
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <h1>
             Arthur Abade Nazareth - Portifólio
         </h1>
+        <button id="toggle-theme">☀️ Mudar Tema</button>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
@@ -20,45 +23,65 @@
         </nav>
     </header>
 
-    <section id="apresentacao">
+    <section class="apresentacao">
         <h2>Bem-vindo ao meu portifólio</h2>
+        <img src="images/FotoPerfil.jpg" alt="Perfil">
         <p>Desenvolvedor ABAP | Analista técnico ABAP | Ciências da Computação</p>
-        <img src="images/FotoPerfil.jpg" alt="Perfil" style="width: 200px;">
     </section>
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Cursando o 4º período do Curso de Ciências da Computação no Centro Universitário Newton Paiva.</p>
-        <p>Atualmente atuando como estagiário na <a href="https://www.seidor.com/pt-br">Seidor</a>, como desenvolvedor ABAP.</p>
-        <ul>
-            <li>Idiomas: Português e Inglês, aprendendo Alemão</li>
-            <li>Hobbies: Jogos, música e amigos</li>
-            <li>Sonhos: Me desenvolver na área do SAP como técnico ABAP</li>
-            <li>Estudando: SAP ERP, Java</li>
-        </ul>
-        <h3>Habilidades</h3>
-        <img src="images/Git.png" alt="Git" style="width: 40px;">
-        <img src="images/Java.png" alt="Java" style="width: 40px;">
-        <img src="images/Python.png" alt="Python" style="width: 40px;">
-        <img src="images/VSCode.png" alt="VisualStudioCode" style="width: 40px;">
-        <img src="images/SAP.webp" alt="SAP" style="width: 50px;">
-    </section>
+    <div class="container">
+        <section class="box">
+            <section class="sobre" id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Cursando o 4º período do Curso de Ciências da Computação no <a href="https://newtonpaiva.br/">Centro Universitário Newton Paiva</a>.</p>
+                <p>Atualmente atuando como estagiário na <a href="https://www.seidor.com/pt-br">Seidor</a>, como desenvolvedor e analista ABAP. Trabalho com SAP ERP, no setor 4Tax - Fiscal.</p>
+                <ul>
+                    <li>🔸 Idiomas: Português e Inglês, aprendendo Alemão</li>
+                    <li>🔸 Hobbies: Jogos, música e amigos</li>
+                    <li>🔸 Sonhos: Me desenvolver na área do SAP como técnico ABAP</li>
+                    <li>🔸 Estudando: SAP ERP, Java</li>
+                </ul>
+                <h3>Habilidades</h3>
+                <img src="images/Git.png" alt="Git" style="margin-left: 50px;">
+                <img src="images/Java.png" alt="Java">
+                <img src="images/Python.png" alt="Python">
+                <img src="images/VSCode.png" alt="VisualStudioCode">
+                <img src="images/SAP.webp" alt="SAP">
+            </section>
 
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <p>Meus projetos no <a href="https://github.com/Arthurnzth">GitHub</a>.</p>
-    </section>
+            <section class="projetos" id="projetos">
+                <h2>Projetos</h2>
+                <p>Meus projetos no <a href="https://github.com/Arthurnzth">GitHub</a>.</p>
+            </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <a href="mailto:arthurnz.personal@gmail.com"><img src="images/Gmail.png" alt="Gmail" style="width: 40px;"></a>
-        <p>Email: arthurnz.personal@gmail.com</p>
-    </section>
+            <section class="contato" id="contato">
+                <h2>Contato</h2>
+                <a href="mailto:arthurnz.personal@gmail.com"><img src="images/Gmail.png" alt="Gmail" style="margin-left: 50px;"></a>
+                <a href="https://www.linkedin.com/in/arthur-abade-nazareth-202559312/"><img src="images/Linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/tuta_nzth?igsh=OXI0NTdxZmpuOW55&utm_source=qr"><img src="images/Insta.png" alt="Instagram"></a>
+                <p>Email: arthurnz.personal@gmail.com</p>
+            </section>
+        </section>
+
+        <section class="box">
+            <section class="decoracao1">
+                <img src="images/Estudos.png" alt="Studying">
+            </section>
+            <section class="decoracao2">
+                <img src="images/BandeiraBrasil.gif" alt="Brazil" style="margin-left: 58px;">
+                <img src="images/BandeiraUSA.gif" alt="USA">
+                <img src="images/BandeiraAlemanha.gif" alt="Germany">
+            </section>
+            <section class="decoracao3">
+                <img src="images/TI.gif" alt="TI">
+            </section>
+        </section>
+    </div>
 
     <footer>
         <p>© 2025 - Arthur Abade Nazareth. Todos os direitos reservados.</p>
-        <a href="https://www.linkedin.com/in/arthur-abade-nazareth-202559312/"><img src="images/Linkedin.png" alt="LinkedIn" style="width: 40px;"></a>
     </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>
