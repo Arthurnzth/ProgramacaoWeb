@@ -16,4 +16,4 @@
 - GitHub [LeonardoVieiraGuimaraes](https://github.com/LeonardoVieiraGuimaraes) do professor
 
 ## Link para o site publicado
-Clique [aqui]() para acessar
+Clique [aqui](https://arthurnzth.github.io/ProgramacaoWeb/) para acessar
