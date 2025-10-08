@@ -283,6 +283,94 @@ body {
     width: 800px;
 }
 
+.email {
+    background: rgba(0, 0, 0, 0.329);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.46);
+    padding: 20px 35px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    margin: 40px;
+}
+
+.email h2 {
+    padding: 20px 35px;
+    text-align: left;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.email form {
+    background: #00000046;
+    box-shadow: 0 4px 40px rgba(71, 71, 71, 0.144);
+    border-radius: 10px;
+    padding: 20px 35px;
+    max-width: 750px;
+    width: 100%;
+    margin: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.email input {
+    background: #0e0e0e1a;
+    border: 2.3px solid rgba(109, 109, 109, 0.199);
+    padding: 10px 17.5px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: #cccccc73;
+}
+
+.email input:hover {
+    background: #6363631a;
+}
+
+.email input::placeholder {
+    color: #cccccc73;
+}
+
+.email textarea {
+    background: #0e0e0e1a;
+    padding: 10px 17.5px;
+    border-radius: 10px;
+    border: 2.3px solid rgba(109, 109, 109, 0.199);
+    display: flex;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: #cccccc73;
+    font-family: 'Dosis', sans-serif;
+    max-width: 350px;
+    min-width: 350px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.email textarea:hover {
+    background: #6363631a;
+}
+
+.email button {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    padding: 10px 17.5px;
+    border-radius: 36px;
+    background: #0e0e0eee;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: #1e1b3a;
+    color: #ccc;
+    margin-top: 4.5%;
+    margin-left: 2.5%;
+    max-width: 140px;
+    width: 100%;
+}
+
+.email button:hover {
+    background: #6363631a;
+    box-shadow: 0 4px 30px rgba(23, 21, 48, 0.397);
+}
+
 .decoracao1 img {
     width: 300px;
     margin-top: 7%;
